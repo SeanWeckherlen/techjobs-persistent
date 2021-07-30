@@ -40,10 +40,4 @@ public class Skill extends AbstractEntity {
     public void setJobs(List<Job> jobs) {
         this.jobs = jobs;
     }
-
-
-    @Override
-    public String toString() {
-        return description;
-    }
 }
